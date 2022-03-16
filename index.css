@@ -1,0 +1,51 @@
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.conversion {
+  color: #d2d2d2;
+}
+
+button {
+  height: 50px;
+  border-radius: 8px;
+  padding: 12px;
+  border: transparent;
+  background-color: #d2d2d2;
+}
+
+.top {
+  background: linear-gradient(246.26deg, #585dfe 0%, #fb3796 100%);
+  width: 550px;
+  height: 260px;
+  text-align: center;
+}
+.bottom {
+  width: 550px;
+  height: 290px;
+  background-color: #1f2937;
+  text-align: center;
+  color: #ffffff;
+}
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 38px;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+}
